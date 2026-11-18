@@ -29,6 +29,29 @@ body {
   z-index: 1050;
   overflow-y: auto;
   padding: 2rem 1rem;
+
+  /* Variables de Bootstrap Modal: como no se usa el contenedor .modal,
+     se definen aquí para que el cuadro tenga fondo, ancho y bordes. */
+  --bs-modal-width: 500px;
+  --bs-modal-margin: 1.75rem;
+  --bs-modal-padding: 1rem;
+  --bs-modal-bg: #fff;
+  --bs-modal-color: #212529;
+  --bs-modal-border-width: 1px;
+  --bs-modal-border-color: rgba(0, 0, 0, 0.175);
+  --bs-modal-border-radius: 0.75rem;
+  --bs-modal-inner-border-radius: calc(0.75rem - 1px);
+  --bs-modal-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  --bs-modal-header-padding-x: 1rem;
+  --bs-modal-header-padding-y: 1rem;
+  --bs-modal-header-padding: 1rem 1rem;
+  --bs-modal-header-border-color: #dee2e6;
+  --bs-modal-header-border-width: 1px;
+  --bs-modal-title-line-height: 1.5;
+  --bs-modal-footer-gap: 0.5rem;
+  --bs-modal-footer-bg: ;
+  --bs-modal-footer-border-color: #dee2e6;
+  --bs-modal-footer-border-width: 1px;
 }
 
 .poster {
